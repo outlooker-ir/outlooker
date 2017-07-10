@@ -1,0 +1,36 @@
+/*
+	Outlooker by Amir Poorya Mehri
+	amirpoorya.ir | [mail] at [amirpoorya] dot [ir]
+*/
+
+
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+@import '../libs/skel';
+
+
+	#wrapper {
+		opacity: 1;
+	}
+
+
+	#overlay {
+		opacity: 1;
+	}
+
+
+	#header {
+		opacity: 1;
+
+		nav {
+			li {
+				opacity: 1;
+			}
+		}
+	}
+
+
+	#footer {
+		background-image: url('images/footer.svg');
+	}
